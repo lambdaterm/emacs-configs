@@ -1,0 +1,11 @@
+(require 'jabber)
+
+(setq jabber-auto-reconnect t)
+(setq jabber-chat-buffer-format "*---%n-*")
+(setq jabber-groupchat-buffer-format "*===%n-*")
+(setq jabber-history-dir "~/.jabber-chatlogs")
+(setq jabber-history-enabled t)
+(setq jabber-history-muc-enabled t)
+(setq jabber-history-size-limit 1024000000)
+(setq jabber-avatar-verbose nil)
+(setq jabber-vcard-avatars-retrieve nil)
