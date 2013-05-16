@@ -30,3 +30,5 @@
 (load "~/.emacs.d/emacs-configs/config/config-elisp.el")
 (load "~/.emacs.d/emacs-configs/config/config-jabber.el")
 (load "~/.emacs.d/emacs-configs/config/config-ocaml.el")
+(load "~/.emacs.d/emacs-configs/config/config-scala.el")
+(load "~/.emacs.d/emacs-configs/config/config-tcl-mode.el")
