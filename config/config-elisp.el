@@ -4,4 +4,4 @@
   (local-set-key [return] 'newline-and-indent))
 
 (add-hook 'emacs-lisp-mode-hook 'my-elisp-mode-hook)
-(add-to-list 'auto-mode-alist '("\\.emacs$" . emacs-lisp-mode)
+(add-to-list 'auto-mode-alist '("\\.emacs$" . emacs-lisp-mode))
