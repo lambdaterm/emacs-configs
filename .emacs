@@ -32,3 +32,4 @@
 (load "~/.emacs.d/emacs-configs/config/config-ocaml.el")
 (load "~/.emacs.d/emacs-configs/config/config-scala.el")
 (load "~/.emacs.d/emacs-configs/config/config-tcl-mode.el")
+(load "~/.emacs.d/emacs-configs/config/config-octave.el")
