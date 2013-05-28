@@ -27,9 +27,15 @@
       scroll-up-aggressively nil
       scroll-preserve-screen-position 'always)
 
-(load "~/.emacs.d/emacs-configs/config/config-elisp.el")
-(load "~/.emacs.d/emacs-configs/config/config-jabber.el")
-(load "~/.emacs.d/emacs-configs/config/config-ocaml.el")
-(load "~/.emacs.d/emacs-configs/config/config-scala.el")
-(load "~/.emacs.d/emacs-configs/config/config-tcl-mode.el")
-(load "~/.emacs.d/emacs-configs/config/config-octave.el")
+(load "~/.emacs.d/config/package.el")
+(when (load (expand-file-name "~/.emacs.d/config/package.el")) (package-initialize))
+(setq package-archives '(("elpa" . "http://tromey.com/elpa/")
+                         ("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")))
+
+(load "~/.emacs.d/config/config-elisp.el")
+(load "~/.emacs.d/config/config-jabber.el")
+(load "~/.emacs.d/config/config-ocaml.el")
+(load "~/.emacs.d/config/config-scala.el")
+(load "~/.emacs.d/config/config-tcl-mode.el")
+(load "~/.emacs.d/config/config-octave.el")
